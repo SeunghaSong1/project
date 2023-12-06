@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seunghapia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>승하피아</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">최신작품 <span>▼</span></a>
+                        <ul>
+                            <li><a href="#">판타지 소설</a></li>
+                            <li><a href="#">무협 소설</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">완결작품 <span>▼</span></a>
+                        <ul>
+                            <li><a href="#">판타지 소설</a></li>
+                            <li><a href="#">무협 소설</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">커뮤니티</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideShow">
+            <div id="slides">
+                <img src="photo-1.jpg" alt="">
+                <img src="photo-2.jpg" alt="">
+                <img src="photo-3.jpg" alt="">
+                <button id="prev">&lang;</button>
+                <button id="next">&rang;</button>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="tabMenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">공지사항</label>
+                <input type="radio" id="tab2" name="tabs">
+                <label for="tab2">갤러리</label>
+
+                <div id="notice" class="tabContent">
+                    <h2>공지사항 내용입니다.</h2>
+                    <ul>
+                        <li>사무실을 이전했습니다.</li>
+                        <li>이벤트에 참여하세요.</li>
+                        <li>출석체크 이벤트 관련 공지</li>
+                        <li>추천 판타지 소설</li>
+                        <li>데일리 랭킹 변경 공지</li>
+                    </ul>
+                </div>
+                <div id="gallery" class="tabContent">
+                    <h2>갤러리 내용입니다.</h2>
+                    <ul>
+                        <li><img src="img-1.jpg"</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon1"></span>
+                            <p>소설 등록</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon2"></span>
+                            <p>사이트 소개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon3"></span>
+                            <p>문의하기</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div id="bottomMenu">
+                <ul>
+                    <li><a href="#">회사 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <div id="sns">
+                    <ul>
+                        <li><a href="#"><img src="sns-1.png"</a></li>
+                        <li><a href="#"><img src="sns-2.png"</a></li>
+                        <li><a href="#"><img src="sns-3.png"</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="company">
+                <p>대구광역시 북구 대학로 80 (대표전화) 010-2308-9970</p>
+            </div>
+        </footer>
+    </div>
+    <script src="slideshow.js"></script>
+</body>
+</html>
